@@ -1,0 +1,7 @@
+# CLion
+.idea/
+cmake-build-*/
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
