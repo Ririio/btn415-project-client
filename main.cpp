@@ -169,8 +169,8 @@ int main() {
             std::cout << "Current status for speakers: \n";
             printDevice(clientSocket, "speakers", NUM_SPEAKERS);
             while (true) {
-                std::cout << "Enter speaker number to interact with:\n";
-                std::cout << "Enter an out of range number to exit: \n";
+                std::cout << "Enter speaker number to interact with\n";
+                std::cout << "or enter an out of range number to exit: \n";
                 while (!(std::cin >> choice || choice < 0)) {  // Check if input fails
                     std::cin.clear();  // Clear error flags
                     std::cin.ignore(1000, '\n');  // Ignore invalid input
@@ -218,12 +218,6 @@ int main() {
             break;
         }
     }
-    std::cin.getline(message, BUFFER_SIZE);
-    // Send start message
-    send(clientSocket, message, strlen(message), 0);
-
-    // Receive file contents from server
-    receiveMessages(clientSocket);
 
     // Cleanup
     closesocket(clientSocket);
