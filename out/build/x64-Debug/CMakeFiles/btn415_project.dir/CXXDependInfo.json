@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Users/kurtc/source/repos/btn415-project-client/out/build/x64-Debug",
+	"dir-cur-src" : "C:/Users/kurtc/source/repos/btn415-project-client",
+	"dir-top-bld" : "C:/Users/kurtc/source/repos/btn415-project-client/out/build/x64-Debug",
+	"dir-top-src" : "C:/Users/kurtc/source/repos/btn415-project-client",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/kurtc/source/repos/btn415-project-client/out/build/x64-Debug/CMakeFiles/btn415_project.dir"
+}

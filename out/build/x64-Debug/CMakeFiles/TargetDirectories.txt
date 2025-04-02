@@ -1,0 +1,3 @@
+C:/Users/kurtc/source/repos/btn415-project-client/out/build/x64-Debug/CMakeFiles/btn415_project.dir
+C:/Users/kurtc/source/repos/btn415-project-client/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/kurtc/source/repos/btn415-project-client/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
