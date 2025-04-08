@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/kurtc/source/repos/btn415-project-client
+# Install script for directory: C:/Users/Vansh/BSD/Sem-4/BTN-415/project/btn415-project-client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/kurtc/Source/Repos/btn415-project-client/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Vansh/BSD/Sem-4/BTN-415/project/btn415-project-client/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -47,6 +47,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/kurtc/source/repos/btn415-project-client/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Vansh/BSD/Sem-4/BTN-415/project/btn415-project-client/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

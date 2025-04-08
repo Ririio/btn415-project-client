@@ -107,13 +107,38 @@ int main() {
                     std::cin.ignore(1000, '\n');  // Ignore invalid input
                     std::cout << "Invalid input\n";
                 }
-                if (choice > NUM_LIGHTS) {
+                if (choice >= NUM_LIGHTS || choice < 0) {
                     break;
                 };
-                std::string temp = "GET lights/" + std::to_string(choice) + "/switch/";
-                std::strcpy(message, temp.c_str());
-                send(clientSocket, message, strlen(message), 0);
-                receiveMessages(clientSocket);
+
+                int choice2;
+                std::cout << "Light selected" + std::to_string(choice) + ": \n";
+                std::cout << "  1. Switch On/Off\n";
+                std::cout << "  2. Set Brightness\n";
+                while (!(std::cin >> choice2 || choice2 < 0)) {  // Check if input fails
+                    std::cin.clear();  // Clear error flags
+                    std::cin.ignore(1000, '\n');  // Ignore invalid input
+                    std::cout << "Invalid input\n";
+                }
+                if (choice2 == 1) {
+                    std::string temp = "GET lights/" + std::to_string(choice) + "/switch/";
+                    std::strcpy(message, temp.c_str());
+                    send(clientSocket, message, strlen(message), 0);
+                    receiveMessages(clientSocket);
+                }
+                else if (choice2 == 2) {
+                    float tempInput;
+                    std::cout << "Enter brightness to set:\n";
+                    while (!(std::cin >> tempInput || tempInput < 0)) {  // Check if input fails
+                        std::cin.clear();  // Clear error flags
+                        std::cin.ignore(1000, '\n');  // Ignore invalid input
+                        std::cout << "Invalid input\n";
+                    }
+                    std::string temp = "GET lights/" + std::to_string(choice) + "/setBrightness/" + std::to_string(tempInput) + "/";
+                    std::strcpy(message, temp.c_str());
+                    send(clientSocket, message, strlen(message), 0);
+                    receiveMessages(clientSocket);
+                }
                 std::cout << "Current status for lights: \n";
                 printDevice(clientSocket, "lights", NUM_LIGHTS);
             }
@@ -130,7 +155,7 @@ int main() {
                     std::cin.ignore(1000, '\n');  // Ignore invalid input
                     std::cout << "Invalid input\n";
                 }
-                if (choice > NUM_THERMOSTATS) {
+                if (choice >= NUM_THERMOSTATS || choice < 0) {
                     break;
                 };
                 int choice2;
@@ -176,7 +201,7 @@ int main() {
                     std::cin.ignore(1000, '\n');  // Ignore invalid input
                     std::cout << "Invalid input\n";
                 }
-                if (choice > NUM_SPEAKERS) {
+                if (choice >= NUM_SPEAKERS || choice < 0) {
                     break;
                 };
                 int choice2;

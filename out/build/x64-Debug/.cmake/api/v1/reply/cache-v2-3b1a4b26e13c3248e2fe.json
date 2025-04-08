@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/kurtc/source/repos/btn415-project-client/out/build/x64-Debug"
+			"value" : "c:/Users/Vansh/BSD/Sem-4/BTN-415/project/btn415-project-client/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -467,7 +467,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kurtc/source/repos/btn415-project-client/out/build/x64-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Vansh/BSD/Sem-4/BTN-415/project/btn415-project-client/out/build/x64-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/kurtc/source/repos/btn415-project-client"
+			"value" : "C:/Users/Vansh/BSD/Sem-4/BTN-415/project/btn415-project-client"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/kurtc/Source/Repos/btn415-project-client/out/install/x64-Debug"
+			"value" : "C:/Users/Vansh/BSD/Sem-4/BTN-415/project/btn415-project-client/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1075,7 +1075,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kurtc/source/repos/btn415-project-client/out/build/x64-Debug"
+			"value" : "C:/Users/Vansh/BSD/Sem-4/BTN-415/project/btn415-project-client/out/build/x64-Debug"
 		},
 		{
 			"name" : "btn415_project_IS_TOP_LEVEL",
@@ -1099,7 +1099,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kurtc/source/repos/btn415-project-client"
+			"value" : "C:/Users/Vansh/BSD/Sem-4/BTN-415/project/btn415-project-client"
 		}
 	],
 	"kind" : "cache",
